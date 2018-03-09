@@ -1,13 +1,19 @@
 .custom-card-follow {
 	float: right;
-	> a {
+	> .btn-primary {
 		width: 100%;
 		min-width: 150px;
+		> .fa {
+			    margin-left: -12px;
+		}
 	}
 }
 .custom-profile-follow {
 	display: inline-block;
-	> a {
+	> .btn-primary {
 		min-width: 100px;
+		> .fa {
+			margin-left: -12px;
+		}
 	}
 }
